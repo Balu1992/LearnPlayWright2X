@@ -4,3 +4,4 @@ console.log(process.platform);
 //linux' for Linux.
 console.log(process.arch);
 console.log("Node version is: " + process.version);
+console.log
