@@ -15,6 +15,13 @@ LearnPlayWright2X/
 │   ├── 04_JS_Basics.js
 │   ├── 05_JS_Variables.js
 │   └── README.md
+├── Chapter_03_Functions/       # JavaScript functions for automation workflows
+│   └── 07_JS_Functions.js
+├── Chapter_04_LET.js/          # LET keyword and block scope examples
+│   ├── 08_JS_UsageofLET.js
+│   └── 09_JS_LET1.js
+├── Chapter_05_CONST/           # CONST keyword and value immutability
+│   └── 10_JS_Const.js
 └── README.md
 ```
 
@@ -31,6 +38,24 @@ Essential JavaScript concepts for writing effective automation scripts.
 - JavaScript fundamentals
 - Variable declarations (var, let, const)
 - Scope and hoisting
+
+### [Chapter 03: Functions](./Chapter_03_Functions/README.md)
+Covers JavaScript functions and reusable automation logic.
+- Function declaration and invocation
+- Parameters and return values
+- Modular script design
+
+### [Chapter 04: LET](./Chapter_04_LET.js/README.md)
+Explains the `let` keyword, block scope, and best practices.
+- Block scoping rules
+- Reassignment behavior
+- Temporal Dead Zone
+
+### [Chapter 05: CONST](./Chapter_05_CONST/README.md)
+Explains the `const` keyword and immutable bindings.
+- Constant declarations
+- Object and array mutability
+- Usage patterns for safe automation scripts
 
 ## Getting Started
 
