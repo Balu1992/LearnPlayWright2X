@@ -1,0 +1,3 @@
+const URL="https://www.idrive.com";
+URL="https://www.google.com"; //TypeError: Assignment to constant variable.
+//CONST cannot be redeclared or reassigned, and it is block-scoped. It must be initialized at the time of declaration, and it cannot be accessed before its declaration due to the Temporal Dead Zone (TDZ). However, if the constant is an object or an array, its properties or elements can be modified, but the reference itself cannot be changed. This makes const a powerful tool for defining values that should not change throughout the program, while still allowing for flexibility in the contents of objects and arrays.
