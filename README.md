@@ -121,6 +121,10 @@ This is a learning repository. Feel free to:
 - Add new chapters for advanced topics
 - Create pull requests with improvements
 
+## Changelog
+
+- **2026-05-12**: Added chapter overview and repository structure entries for `Chapter_03_Functions`, `Chapter_04_LET.js`, and `Chapter_05_CONST`.
+
 ## License
 
 MIT
