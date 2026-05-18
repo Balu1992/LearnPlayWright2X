@@ -22,6 +22,9 @@ LearnPlayWright2X/
 │   └── 09_JS_LET1.js
 ├── Chapter_05_CONST/           # CONST keyword and value immutability
 │   └── 10_JS_Const.js
+├── Chapter_06_HOISTING/        # Hoisting examples and function scope
+│   ├── 11_JS_Hoisting.js
+│   └── 12_JS_Hoisting_Functions.js
 └── README.md
 ```
 
@@ -56,6 +59,12 @@ Explains the `const` keyword and immutable bindings.
 - Constant declarations
 - Object and array mutability
 - Usage patterns for safe automation scripts
+
+### [Chapter 06: Hoisting](./Chapter_06_HOISTING/README.md)
+Explains JavaScript hoisting and how function scope affects variables.
+- `var` hoisting and initialization
+- Function declaration hoisting
+- Common pitfalls with closures and loops
 
 ## Getting Started
 
@@ -124,6 +133,7 @@ This is a learning repository. Feel free to:
 ## Changelog
 
 - **2026-05-12**: Added chapter overview and repository structure entries for `Chapter_03_Functions`, `Chapter_04_LET.js`, and `Chapter_05_CONST`.
+- **2026-05-18**: Added `Chapter_06_HOISTING` with hoisting examples and updated repository documentation.
 
 ## License
 
