@@ -11,5 +11,5 @@ This chapter explores JavaScript hoisting, function scope, and how variable decl
 
 ## Files
 
-- `11_JS_Hoisting.js` — Examples of variable and function hoisting.
-- `12_JS_Hoisting_Functions.js` — Hoisting behavior in function contexts and callback closures.
+- `11_JS_Hoisting.js` — Shows how `var`, `let`, and `const` are hoisted differently, and why accessing `let`/`const` before declaration triggers the Temporal Dead Zone.
+- `12_JS_Hoisting_Functions.js` — Demonstrates function scope hoisting with `var` inside a function and why a variable can print `undefined` before assignment.
