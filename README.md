@@ -23,6 +23,10 @@ LearnPlayWright2X/
 ├── Chapter_06_HOISTING/        # Hoisting examples and function scope
 │   ├── 11_JS_Hoisting.js
 │   └── 12_JS_Hoisting_Functions.js
+├── Chapter_07_LITERALS/       # Literals and template literals
+│   ├── 13_JS_LiteralsExplanation.js
+│   ├── 14_JS_Literals_1.js
+│   └── 15_JS_TemplateLiterals_2.js
 └── README.md
 ```
 
@@ -63,6 +67,13 @@ This chapter explores JavaScript hoisting, function scope, and how variable decl
 - `11_JS_Hoisting.js` — Shows how `var`, `let`, and `const` are hoisted differently, and why accessing `let`/`const` before declaration triggers the Temporal Dead Zone.
 - `12_JS_Hoisting_Functions.js` — Demonstrates function scope hoisting with `var` inside a function and why a variable can print `undefined` before assignment.
 - Topics: `var` hoisting and function scope, function declaration hoisting, differences between `var`, `let`, and `const`, hoisting pitfalls with closures and loops.
+
+### Chapter 07: Literals
+This chapter demonstrates JavaScript literals, `null` vs `undefined`, and template literals for string interpolation.
+- `13_JS_LiteralsExplanation.js` — Detailed notes and runnable examples for `null` vs `undefined`, `typeof`, and equality behavior.
+- `14_JS_Literals_1.js` — Basic literal examples and `typeof` checks.
+- `15_JS_TemplateLiterals_2.js` — Template literal usage and practical interpolation examples.
+ - Topics: primitive literals, intentional absence (`null`), uninitialized values (`undefined`), and template literals.
 
 ## Getting Started
 
