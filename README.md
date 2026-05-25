@@ -9,12 +9,10 @@ LearnPlayWright2X/
 ├── Chapter_01_Basics/          # Foundational Playwright concepts
 │   ├── 01_Basics.js
 │   ├── 02_JS_Commands.js
-│   ├── 03_JS_Comments.js
-│   └── README.md
+│   └── 03_JS_Comments.js
 ├── Chapter_02_JavascriptConcepts/  # JavaScript fundamentals for automation
 │   ├── 04_JS_Basics.js
-│   ├── 05_JS_Variables.js
-│   └── README.md
+│   └── 05_JS_Variables.js
 ├── Chapter_03_Functions/       # JavaScript functions for automation workflows
 │   └── 07_JS_Functions.js
 ├── Chapter_04_LET.js/          # LET keyword and block scope examples
@@ -28,43 +26,43 @@ LearnPlayWright2X/
 └── README.md
 ```
 
+> All repository documentation is consolidated in this single README file.
+
 ## Chapters Overview
 
-### [Chapter 01: Basics](./Chapter_01_Basics/README.md)
-Introduction to Playwright and JavaScript basics for browser automation.
-- Basic Playwright usage
-- JavaScript commands for automation
-- Code documentation and comments
+### Chapter 01: Basics
+Foundational Playwright concepts for browser automation.
+- `01_Basics.js` — Basic Playwright usage and simple example flows
+- `02_JS_Commands.js` — JavaScript commands used in automation
+- `03_JS_Comments.js` — Code documentation and commenting practices
 
-### [Chapter 02: JavaScript Concepts](./Chapter_02_JavascriptConcepts/README.md)
-Essential JavaScript concepts for writing effective automation scripts.
-- JavaScript fundamentals
-- Variable declarations (var, let, const)
-- Scope and hoisting
+### Chapter 02: JavaScript Concepts
+Essential JavaScript fundamentals for automation scripts.
+- `04_JS_Basics.js` — Core syntax, operators, and basic JavaScript usage
+- `05_JS_Variables.js` — `var`, `let`, and `const` variable behavior
+- Topics: scope, hoisting, and variable declarations
 
-### [Chapter 03: Functions](./Chapter_03_Functions/README.md)
-Covers JavaScript functions and reusable automation logic.
-- Function declaration and invocation
-- Parameters and return values
-- Modular script design
+### Chapter 03: Functions
+JavaScript functions and reusable automation logic.
+- `07_JS_Functions.js` — Function declaration, invocation, and parameter handling
+- Topics: return values, reusable helpers, and modular script design
 
-### [Chapter 04: LET](./Chapter_04_LET.js/README.md)
-Explains the `let` keyword, block scope, and best practices.
-- Block scoping rules
-- Reassignment behavior
-- Temporal Dead Zone
+### Chapter 04: LET
+`let` keyword examples and block-scoping behavior.
+- `08_JS_UsageofLET.js` — Block scope and reassignment examples
+- `09_JS_LET1.js` — Best practices for `let` usage
+- Topics: Temporal Dead Zone and safer variable declarations
 
-### [Chapter 05: CONST](./Chapter_05_CONST/README.md)
-Explains the `const` keyword and immutable bindings.
-- Constant declarations
-- Object and array mutability
-- Usage patterns for safe automation scripts
+### Chapter 05: CONST
+`const` keyword examples and immutable bindings.
+- `10_JS_Const.js` — Constant declarations and immutability patterns
+- Topics: object and array mutability with `const`
 
-### [Chapter 06: Hoisting](./Chapter_06_HOISTING/README.md)
-Explains JavaScript hoisting and how function scope affects variables.
-- `var` hoisting and initialization
-- Function declaration hoisting
-- Common pitfalls with closures and loops
+### Chapter 06: Hoisting
+This chapter explores JavaScript hoisting, function scope, and how variable declarations behave inside functions and blocks.
+- `11_JS_Hoisting.js` — Shows how `var`, `let`, and `const` are hoisted differently, and why accessing `let`/`const` before declaration triggers the Temporal Dead Zone.
+- `12_JS_Hoisting_Functions.js` — Demonstrates function scope hoisting with `var` inside a function and why a variable can print `undefined` before assignment.
+- Topics: `var` hoisting and function scope, function declaration hoisting, differences between `var`, `let`, and `const`, hoisting pitfalls with closures and loops.
 
 ## Getting Started
 
