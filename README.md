@@ -23,10 +23,6 @@ LearnPlayWright2X/
 ├── Chapter_06_HOISTING/        # Hoisting examples and function scope
 │   ├── 11_JS_Hoisting.js
 │   └── 12_JS_Hoisting_Functions.js
-├── Chapter_07_LITERALS/       # Literals and template literals
-│   ├── 13_JS_LiteralsExplanation.js
-│   ├── 14_JS_Literals_1.js
-│   └── 15_JS_TemplateLiterals_2.js
 └── README.md
 ```
 
@@ -63,17 +59,10 @@ JavaScript functions and reusable automation logic.
 - Topics: object and array mutability with `const`
 
 ### Chapter 06: Hoisting
-This chapter explores JavaScript hoisting, function scope, and how variable declarations behave inside functions and blocks.
-- `11_JS_Hoisting.js` — Shows how `var`, `let`, and `const` are hoisted differently, and why accessing `let`/`const` before declaration triggers the Temporal Dead Zone.
-- `12_JS_Hoisting_Functions.js` — Demonstrates function scope hoisting with `var` inside a function and why a variable can print `undefined` before assignment.
-- Topics: `var` hoisting and function scope, function declaration hoisting, differences between `var`, `let`, and `const`, hoisting pitfalls with closures and loops.
-
-### Chapter 07: Literals
-This chapter demonstrates JavaScript literals, `null` vs `undefined`, and template literals for string interpolation.
-- `13_JS_LiteralsExplanation.js` — Detailed notes and runnable examples for `null` vs `undefined`, `typeof`, and equality behavior.
-- `14_JS_Literals_1.js` — Basic literal examples and `typeof` checks.
-- `15_JS_TemplateLiterals_2.js` — Template literal usage and practical interpolation examples.
- - Topics: primitive literals, intentional absence (`null`), uninitialized values (`undefined`), and template literals.
+JavaScript hoisting and function scope explained.
+- `11_JS_Hoisting.js` — How `var`, `let`, and `const` are hoisted differently
+- `12_JS_Hoisting_Functions.js` — Function scope hoisting and `undefined` behavior
+- Topics: declaration hoisting, Temporal Dead Zone, and closure pitfalls
 
 ## Getting Started
 
@@ -157,34 +146,3 @@ Balaji
 - [Playwright Documentation](https://playwright.dev)
 - [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info)
-
----
-
-## Chapter 07: Literals (Full Chapter README)
-
-This chapter covers JavaScript literals and template literals used commonly in automation scripts and examples.
-
-### Topics
-
-- Primitive literals (number, string, boolean)
-- `null` vs `undefined`
-- Template literals and string interpolation
-
-### Files
-
-- `13_JS_LiteralsExplanation.js` — Basic literals example (numbers, strings, booleans, `null` vs `undefined`).
-- `14_JS_Literals_1.js` — Simple literal type examples (numbers, typeof checks).
-- `15_JS_TemplateLiterals_2.js` — Template literal examples and URL interpolation.
-
-### How to run
-
-Run the basic literals example with Node.js:
-
-```bash
-node Chapter_07_LITERALS/13_JS_LiteralsExplanation.js
-```
-
-### Notes
-
-- Each example prints to the console and is intended for quick experimentation.
-- Feel free to extend examples or add tests.
